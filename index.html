@@ -13,6 +13,19 @@
             justify-content: center;
             min-height: 100vh;
             overflow: auto; /* Tillater rulling */
+            font-family: Arial, sans-serif; /* Angir skrifttypen til Arial */
+        }
+
+        .content {
+            background-color: #F2EBDD; /* Bakgrunnsfarge for teksten */
+            padding: 20px; /* Gir litt plass rundt teksten */
+            max-width: 1000px; /* Begrenser maksimal bredde for innholdet */
+            width: 100%; /* Tar full bredde på små skjermer */
+        }
+
+        h3 {
+            border-bottom: 2px solid black; /* Tegner en strek under overskriften */
+            padding-bottom: 10px; /* Gir litt plass mellom overskriften og streken */
         }
 
         img {
@@ -22,18 +35,24 @@
             height: auto; /* Sikrer korrekt aspektforhold */
             box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Enkel skygge for å gi litt dybde */
             margin-top: 20px; /* Litt avstand fra toppen */
+            margin-bottom: 20px; /* Litt avstand fra bunnen */
         }
+
+        blockquote {
+            font-style: italic; /* Gjør sitatet kursivt */
+        }
+
     </style>
 </head>
 <body>
-    Fra min appell på valgkampåningen, 14. august:
-	
-	
-	SV ser også på valget som en mulighet. Vi øyner vi et håp om å skape et politisk fellesskap hvor vi kommer til enighet om de store og vanskelige valgene i Kleppestø, en mare som har ridd Askøy i uminnelige tider. 
-Til Ynge, Jannicke, Bård, Rosalind og resten av flokken har jeg derfor en gave som kan brukes når valget er over, når posisjonene fordeles, når Kleppestøplanen skal behandles eller ellers når dere vil ha varig politisk enighet som står seg i generasjoner.
-Dere får alle en flaske av Dr. Iversens kamelolje. Bruk den for å svelge politiske kameler for med denne som hjelpemiddel, kan avtalene stå seg over tid og skape ny og bærekraftig utvikling av Askøy. For alle våre politiske venner, konkurrenter og motstandere kan regne med et SV som er interessert i politiske samtaler om alt, så lenge det er vilje til å gi og ta.
-	
-	
-	<img src="Kamelolje.png" alt="Bilde av Kamelolje">
+    <div class="content">
+        <h3>Fra min appell på valgkampåningen, 14. august </h3>
+        <blockquote>
+            SV ser også på valget som en mulighet. Vi øyner vi et håp om å skape et politisk fellesskap hvor vi kommer til enighet om de store og vanskelige valgene i Kleppestø, en mare som har ridd Askøy i uminnelige tider. 
+            Til Ynge, Jannicke, Bård, Rosalind og resten av flokken har jeg derfor en gave som kan brukes når valget er over, når posisjonene fordeles, når Kleppestøplanen skal behandles eller ellers når dere vil ha varig politisk enighet som står seg i generasjoner.
+            Dere får alle en flaske av Dr. Iversens kamelolje. Bruk den for å svelge politiske kameler for med denne som hjelpemiddel, kan avtalene stå seg over tid og skape ny og bærekraftig utvikling av Askøy. For alle våre politiske venner, konkurrenter og motstandere kan regne med et SV som er interessert i politiske samtaler om alt, så lenge det er vilje til å gi og ta.
+        </blockquote>
+        <img src="Kamelolje.png" alt="Bilde av Kamelolje">
+    </div>
 </body>
 </html>
